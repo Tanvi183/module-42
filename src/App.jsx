@@ -1,14 +1,11 @@
 import './App.css'
-import { Camera } from 'lucide-react';
+import Navbar from './Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-
-      <h1 className='text-center'>Vite + React</h1>
-      <Camera color="red" size={48} />
-
+      <Navbar></Navbar>
     </>
   )
 }
