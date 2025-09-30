@@ -35,7 +35,7 @@ const Navbar = () => {
 
     const [open, setOpen] = useState(false);
 
-    const links = navigationData.map(nav => <Link nav={nav}></Link>)
+    const links = navigationData.map(nav => <Link key={nav.id} nav={nav}></Link>)
 
     return (
         <nav className='flex justify-between items-center w-11/12 mx-auto py-5'>
