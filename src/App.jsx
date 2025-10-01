@@ -2,6 +2,7 @@ import './App.css'
 import PricingOptions from './Compnents/PricingOptoins/PricingOptions';
 import ResultChart from './Compnents/LineChart/ResultChart'
 import Navbar from './Compnents/Navbar/Navbar'
+import ProductBarChart from './Compnents/BarChart/ProductBarChart';
 
 const pricingPromise = fetch('pricingData.json').then(res => res.json());
 const marksPrimise = fetch('../public/studentMark.json').then(res => res.json());
@@ -12,7 +13,9 @@ function App() {
     <>
       <Navbar></Navbar>
 
-      <ResultChart marksPrimise={marksPrimise}></ResultChart>
+      {/* <ResultChart marksPrimise={marksPrimise}></ResultChart> */}
+
+      <ProductBarChart></ProductBarChart>
 
       <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
 
