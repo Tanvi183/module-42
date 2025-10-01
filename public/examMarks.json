@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "marks": {
+      "math": 85,
+      "science": 90,
+      "english": 88
+    }
+  },
+  {
+    "id": 2,
+    "name": "Brian Smith",
+    "marks": {
+      "math": 78,
+      "science": 75,
+      "english": 80
+    }
+  },
+  {
+    "id": 3,
+    "name": "Catherine Lee",
+    "marks": {
+      "math": 92,
+      "science": 89,
+      "english": 95
+    }
+  },
+  {
+    "id": 4,
+    "name": "Daniel Kim",
+    "marks": {
+      "math": 60,
+      "science": 65,
+      "english": 70
+    }
+  },
+  {
+    "id": 5,
+    "name": "Emily Davis",
+    "marks": {
+      "math": 88,
+      "science": 92,
+      "english": 85
+    }
+  },
+  {
+    "id": 6,
+    "name": "Frank Wilson",
+    "marks": {
+      "math": 70,
+      "science": 72,
+      "english": 68
+    }
+  },
+  {
+    "id": 7,
+    "name": "Grace Miller",
+    "marks": {
+      "math": 95,
+      "science": 94,
+      "english": 96
+    }
+  },
+  {
+    "id": 8,
+    "name": "Henry Moore",
+    "marks": {
+      "math": 55,
+      "science": 60,
+      "english": 58
+    }
+  },
+  {
+    "id": 9,
+    "name": "Irene Walker",
+    "marks": {
+      "math": 80,
+      "science": 78,
+      "english": 82
+    }
+  },
+  {
+    "id": 10,
+    "name": "Jack Thompson",
+    "marks": {
+      "math": 67,
+      "science": 70,
+      "english": 65
+    }
+  }
+]
